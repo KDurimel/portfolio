@@ -22,7 +22,11 @@ $(document).ready(function() {
         // you don't need to add "opener" option if this code matches your needs, it's defailt one.
         return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
-      }
+      },
+     image: {
+            titleSrc: 'caption',
+            // this tells the script which attribute has your caption
+        }
     });
   };
 
