@@ -85,7 +85,7 @@ NOTE: This is main stylesheet of the template.
 }
 
 #animtypo{
-    /*color:#00bfbf;*/
+    color:#00bfbf;
     font-family: 'Courier New', sans-serif;
 }
  /*================================================
@@ -98,7 +98,7 @@ NOTE: This is main stylesheet of the template.
      height: 100%;
      left: 0;
      top: 0;
-     background-color: #fff;
+     background-color: #000000;
      z-index: 9999999;
  }
  .preloader .spinner {
@@ -116,7 +116,7 @@ NOTE: This is main stylesheet of the template.
      font-size: 10px;
  }
  .spinner > div {
-     background-color: #333;
+     background-color: #008080;
      height: 100%;
      width: 6px;
      display: inline-block;
@@ -239,7 +239,7 @@ NOTE: This is main stylesheet of the template.
      padding: 22px 13px;
  }
  .custom-navbar.top-nav-collapse .main-menu ul.nav.navbar-nav li.active a {
-     color: #727272;
+     color: #008080;
 } .logo a span {
      display: inline-block;
      font-size: 28px;
@@ -309,7 +309,7 @@ NOTE: This is main stylesheet of the template.
  .element {
      display: inline;
      font-weight: 800;
-     color: #fff;
+     color: #008080;
  }
 .btn.welcome-btn{
     background-color: transparent;
