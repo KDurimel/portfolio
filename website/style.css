@@ -79,7 +79,16 @@ NOTE: This is main stylesheet of the template.
  input:-webkit-autofill:focus {
      -webkit-box-shadow: 0 0 0px 1000px white inset !important;
  }
- 
+
+/*#myname{
+    color:bisque;
+    font-family: 'Poppins', sans-serif;
+}
+
+#animtypo{
+    color:palegreen;
+    font-family: 'Poppins', sans-serif;
+}*/
  /*================================================
              1 PRELOADER
 ==================================================*/
@@ -304,14 +313,15 @@ NOTE: This is main stylesheet of the template.
      color: #fff;
  }
 .btn.welcome-btn{
-    background-color: #fff;
-    border: 2px solid transparent;
-    color: #222;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
     margin-top: 35px;
 }
 .btn.welcome-btn:hover{
-    border: 2px solid #fff;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid transparent;
+    color: #222;
 }
 
  /*================================================
