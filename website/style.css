@@ -80,15 +80,14 @@ NOTE: This is main stylesheet of the template.
      -webkit-box-shadow: 0 0 0px 1000px white inset !important;
  }
 
-/*#myname{
-    color:bisque;
-    font-family: 'Poppins', sans-serif;
+#myname{
+    font-family: 'Montserrat', sans-serif;
 }
 
 #animtypo{
-    color:palegreen;
-    font-family: 'Poppins', sans-serif;
-}*/
+    /*color:#00bfbf;*/
+    font-family: 'Courier New', sans-serif;
+}
  /*================================================
              1 PRELOADER
 ==================================================*/
