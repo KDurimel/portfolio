@@ -551,7 +551,9 @@ ul.work-list li:hover, ul.work-list li.active{
 	background: #fff;
 	color: #444;
 }
-
+.hover-content h5{
+    color:lightgrey;
+}
 /*===============================================
 	    8. STAT AREA
 ===============================================*/
@@ -649,7 +651,7 @@ ul.work-list li:hover, ul.work-list li.active{
 ==================================================*/
 
 .blog-area{
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 .single-blog{
     border: 1px solid #ddd;
@@ -688,6 +690,7 @@ ul.work-list li:hover, ul.work-list li.active{
     background: transparent;
     color: #222;
 }
+
 
  /*================================================
             10 CONTACT INFO SECTION
