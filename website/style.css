@@ -98,7 +98,7 @@ NOTE: This is main stylesheet of the template.
      height: 100%;
      left: 0;
      top: 0;
-     background-color: #000000;
+     background-color: #FFFFFF;
      z-index: 9999999;
  }
  .preloader .spinner {
@@ -553,6 +553,11 @@ ul.work-list li:hover, ul.work-list li.active{
 }
 .hover-content h5{
     color:lightgrey;
+}
+/* custom code start here */
+
+.single-work a {
+	color: aquamarine;
 }
 /*===============================================
 	    8. STAT AREA

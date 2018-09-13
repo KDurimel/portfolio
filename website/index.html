@@ -106,9 +106,9 @@
 
         <!--======= WELCOME AREA =======-->
         <div id="home" class="welcome-area" data-stellar-background-ratio="0.6" style="background-image: url(assets/img/intro-bg.jpg);">
-            <div id="particles"></div>
             <div class="welcome-table">
-               <div class="welcome-cell">
+                <div id="particles"></div>
+                <div class="welcome-cell">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
@@ -334,12 +334,56 @@
                 
                 <div class="work-inner">
                     <div class="row">
+                        <!-- GAMeRdbi -->
+                        <div class="col-md-4 col-sm-6 mix bioinfo webdev">
+                           <div class="single-work">
+                                <a href="assets/img/work/gamerdbi.png" class="image-popup" caption="<b>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</b><br/>
+                                Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations. GAMeRdbi is powered with nodeJS and provides a lot of interactive features.<br/>
+                                <a href='https://github.com/KDurimel/GAMeRdbi'>Source code</a>&nbsp;&nbsp;<i class='fab fa-js'></i>">
+                                    <img src="assets/img/work/gamerdbi.png" alt="">
+                                    <div class="itemHover">
+                                        <div class="work-table">
+                                            <div class="table-cell">
+                                                <div class="hover-content">
+                                                    <h3>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</h3>
+                                                    <h5>Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations.</h5>
+                                                    <h6>Anses(French Agency for food safety)</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                         <!-- ResistAB -->
+                        <div class="col-md-4 col-sm-6 mix bioinfo data webdev">
+                           <div class="single-work">
+                                <a href="assets/img/work/resistab.png" class="image-popup" caption="<b>ResistAB: Gene resistance prediction</b><br/>
+                                Flask web application for gene resistance prediction using machine learning algorithms. Users can create an account to train and
+                                use machine learning algorithms on their datasets in multiple workspaces.<br/>
+                                Source code is confidential.&nbsp;&nbsp;<i class='fab fa-python'></i>">
+                                    <img src="assets/img/work/resistab.png" alt="">
+                                    <div class="itemHover">
+                                        <div class="work-table">
+                                            <div class="table-cell">
+                                                <div class="hover-content">
+                                                    <h3>ResistAB: Gene resistance prediction</h3>
+                                                    <h5>Flask web application for gene resistance prediction using machine learning algorithms.</h5>
+                                                    <h6>Pasteur Institute</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <!-- GENIAL -->
                         <div class="col-md-4 col-sm-6 mix bioinfo data">
                            <div class="single-work">
                                 <a href="assets/img/work/gsea.png" class="image-popup" caption="<b>GENIAL (Gene ontology ENrIchment AnaLysis)</b><br/>
                                 Gene Set Enrichment Analysis (GSEA) is a computational method that determines whether an a priori defined set of genes shows statistically significant, concordant differences between two biological states.<br/>
-                                From a input dataset containing RNA-seq differential expression data, GENIAL performs all three GO,metabolic pathways, and protein functional domains enrichment annotations, implementing robust statistical procedures. Outputs are both charts (pie, bar plot, graphs, tracks) and text results (tables). This tool is powered by Shiny, a R package that combines computational power of R with the interactivity of nodeJS web apps.">
+                                From a input dataset containing RNA-seq differential expression data, GENIAL performs all three GO,metabolic pathways, and protein functional domains enrichment annotations, implementing robust statistical procedures. Outputs are both charts (pie, bar plot, graphs, tracks) and text results (tables). This tool is powered by Shiny, a R package that combines computational power of R with the interactivity of nodeJS web apps.<br/>
+                                <a href='https://github.com/KDurimel/GSEAtools'>Source code</a>&nbsp;&nbsp;<i class='fab fa-r-project'>">
                                     <img src="assets/img/work/gsea.png" alt="">
                                     <div class="itemHover">
                                         <div class="work-table">
@@ -355,39 +399,22 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- ResistAB -->
-                        <div class="col-md-4 col-sm-6 mix bioinfo data webdev">
+                    </div>
+                    <div class="row">
+                        <!-- ARTwork -->
+                        <div class="col-md-4 col-sm-6 mix bioinfo data">
                            <div class="single-work">
-                                <a href="assets/img/work/resistab.png" class="image-popup" caption="<b>ResistAB: Gene resistance prediction</b><br/>
-                                Flask web application for gene resistance prediction using machine learning algorithms. Users can create an account to train and
-                                use machine learning algorithms on their datasets in multiple workspaces.">
-                                    <img src="assets/img/work/resistab.png" alt="">
+                                <a href="assets/img/work/ARtWORK_scheme.jpg" class="image-popup" caption="<b>ARTwork: Assembly Reads and Typing workflow</b><br/>
+                                Bioinformatics workflow dedicated to WGS data processing (input quality control, normalization, assembly then scaffolding, results quality control
+                                in accordance with Assemblathon 2 advices, log file and execution report.) in the context of foodborne pathogens surveillance and outbreak investigations.<br/>
+                                <a href='https://github.com/KDurimel/ARtWORK'>Source code</a>&nbsp;&nbsp;<i class='fab fa-python'></i>&nbsp;&nbsp;<i class='fas fa-hashtag'>">
+                                    <img src="assets/img/work/ARtWORK_scheme_preview.jpg" alt="">
                                     <div class="itemHover">
                                         <div class="work-table">
                                             <div class="table-cell">
                                                 <div class="hover-content">
-                                                    <h3>ResistAB: Gene resistance prediction</h3>
-                                                    <h5>Flask web application for gene resistance prediction using machine learning algorithms.</h5>
-                                                    <h6>Pasteur Institute - Normandie Université</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- GAMeRdbi -->
-                        <div class="col-md-4 col-sm-6 mix bioinfo webdev">
-                           <div class="single-work">
-                                <a href="assets/img/work/gamerdbi.png" class="image-popup" caption="<b>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</b><br/>
-                                Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations. GAMeRdbi is powered with nodeJS and provides a lot of interactive features.">
-                                    <img src="assets/img/work/gamerdbi.png" alt="">
-                                    <div class="itemHover">
-                                        <div class="work-table">
-                                            <div class="table-cell">
-                                                <div class="hover-content">
-                                                    <h3>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</h3>
-                                                    <h5>Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations.</h5>
+                                                    <h3>ARTwork: Assembly Reads and Typing workflow</h3>
+                                                    <h5>Bioinformatics workflow dedicated to WGS data processing</h5>
                                                     <h6>Anses(French Agency for food safety)</h6>
                                                 </div>
                                             </div>
@@ -396,18 +423,22 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- ARTwork -->
-                        <div class="col-md-4 col-sm-6 mix bioinfo webdev">
+                        <!-- DNAlogy -->
+                        <div class="col-md-4 col-sm-6 mix bioinfo">
                            <div class="single-work">
-                                <a href="assets/img/work/gamerdbi.png" class="image-popup" caption="<b>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</b><br/>
-                                Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations. GAMeRdbi is powered with nodeJS and provides a lot of interactive features.">
-                                    <img src="assets/img/work/gamerdbi.png" alt="">
+                                <a href="assets/img/work/dnalogy_full.png" class="image-popup" caption="<b>DNAlogy</b><br/>
+                                Light bioinformatics tools suite for gene set statistical analysis and management based on DNA-seq (meta) data.<br/>
+                                The first tool,FastGSEA (fast Gene Set Enrichment Analysis) performs GO-terms enrichment analysis bewteen two gene sets, based on hypergeometric tests. it can be used 
+                                for GWAS studies.
+                                A second tool is under construction in order to use FastGSEA using a REST API. Other tools are under project.<br/>
+                                <a href='https://github.com/KDurimel/DNAlogy'>Source code</a>&nbsp;&nbsp;<i class='fab fa-python'></i>&nbsp;&nbsp;<i class='fab fa-r-project'>&nbsp;&nbsp;<i class='fas fa-hashtag'></i>&nbsp;&nbsp;<i class='fab fa-js'></i>">
+                                    <img src="assets/img/work/dnalogy_prev.png" alt="">
                                     <div class="itemHover">
                                         <div class="work-table">
                                             <div class="table-cell">
                                                 <div class="hover-content">
-                                                    <h3>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</h3>
-                                                    <h5>Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations.</h5>
+                                                    <h3>DNAlogy</h3>
+                                                    <h5>Light bioinformatics tools suite for gene set statistical analysis and management based on DNA-seq (meta) data </h5>
                                                     <h6>Anses(French Agency for food safety)</h6>
                                                 </div>
                                             </div>
@@ -417,17 +448,19 @@
                             </div>
                         </div>
                         <!-- VARTools -->
-                        <div class="col-md-4 col-sm-6 mix bioinfo webdev">
+                        <div class="col-md-4 col-sm-6 mix bioinfo">
                            <div class="single-work">
-                                <a href="assets/img/work/gamerdbi.png" class="image-popup" caption="<b>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</b><br/>
-                                Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations. GAMeRdbi is powered with nodeJS and provides a lot of interactive features.">
-                                    <img src="assets/img/work/gamerdbi.png" alt="">
+                                <a href="assets/img/work/vartools_full.jpg" class="image-popup" caption="<b>VARtools</b><br/>
+                                Tools for sripts for SNPs and INDELs analysis. The automated sub-workflow ‘VARCall’ aims to detect SNPs and small InDels. 'FixedVarTools’, ‘GetGOxML’ , and ‘EveryGO’ aims to extract information about sensitive and specific variants at each leaves of corresponding phylogenetic inference. I developed 'GetGOxML' and 'EveryGO'.<br/>
+                                This work was done as a part of an analysis involved in an article (doi: 10.1186/s12866-017-1132-1)
+                                <a href='https://github.com/afelten-Anses/VARtools'>Source code</a>&nbsp;&nbsp;<i class='fab fa-python'></i>&nbsp;&nbsp;<i class='fab fa-r-project'></i>">
+                                    <img src="assets/img/work/vartools_prev.jpg" alt="">
                                     <div class="itemHover">
                                         <div class="work-table">
                                             <div class="table-cell">
                                                 <div class="hover-content">
-                                                    <h3>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</h3>
-                                                    <h5>Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations.</h5>
+                                                    <h3>VARtools</h3>
+                                                    <h5>Tools for variants (SNPs and INDELs) analysis.</h5>
                                                     <h6>Anses(French Agency for food safety)</h6>
                                                 </div>
                                             </div>
@@ -448,7 +481,7 @@
                                                 <div class="hover-content">
                                                     <h3>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</h3>
                                                     <h5>Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations.</h5>
-                                                    <h6>Anses(French Agency for food safety)</h6>
+                                                    <h6>Normandie Université</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +490,7 @@
                             </div>
                         </div>
                         <!-- GEOFast -->
-                        <div class="col-md-4 col-sm-6 mix bioinfo webdev">
+                        <!--<div class="col-md-4 col-sm-6 mix bioinfo webdev">
                            <div class="single-work">
                                 <a href="assets/img/work/gamerdbi.png" class="image-popup" caption="<b>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</b><br/>
                                 Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations. GAMeRdbi is powered with nodeJS and provides a lot of interactive features.">
@@ -475,27 +508,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>
-                        <!-- DNAlogy -->
-                        <div class="col-md-4 col-sm-6 mix bioinfo webdev">
-                           <div class="single-work">
-                                <a href="assets/img/work/gamerdbi.png" class="image-popup" caption="<b>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</b><br/>
-                                Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations. GAMeRdbi is powered with nodeJS and provides a lot of interactive features.">
-                                    <img src="assets/img/work/gamerdbi.png" alt="">
-                                    <div class="itemHover">
-                                        <div class="work-table">
-                                            <div class="table-cell">
-                                                <div class="hover-content">
-                                                    <h3>GAMeRdbi: Genome Analysis, Modeling, and Risk dbi</h3>
-                                                    <h5>Bioinformatics web application dedicated to WGS data management and analysis in the context of foodborne pathogens surveillance and outbreak investigations.</h5>
-                                                    <h6>Anses(French Agency for food safety)</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        </div>-->
                         <!-- Jobim 2017 -->
                         <div class="col-md-4 col-sm-6 mix bioinfo webdev">
                            <div class="single-work">
@@ -536,78 +549,6 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 mix grapich">
-                           <div class="single-work">
-                                <a href="assets/img/work/5.jpg" class="image-popup">
-                                    <img src="assets/img/work/5.jpg" alt="">
-                                    <div class="itemHover">
-                                        <div class="work-table">
-                                            <div class="table-cell">
-                                                <div class="hover-content">
-                                                    <h3>Project name</h3>
-                                                    <h6>Client: Demeon James</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 mix grapich">
-                           <div class="single-work">
-                                <a href="assets/img/work/6.jpg" class="image-popup">
-                                    <img src="assets/img/work/6.jpg" alt="">
-                                    <div class="itemHover">
-                                        <div class="work-table">
-                                            <div class="table-cell">
-                                                <div class="hover-content">
-                                                    <h3>Project name</h3>
-                                                    <h6>Client: Demeon James</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-4 col-sm-6 mix webdesign">
-                           <div class="single-work">
-                                <a href="assets/img/work/2.jpg" class="image-popup">
-                                    <img src="assets/img/work/2.jpg" alt="">
-                                    <div class="itemHover">
-                                        <div class="work-table">
-                                            <div class="table-cell">
-                                                <div class="hover-content">
-                                                    <h3>Project name</h3>
-                                                    <h6>Client: ddd James</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-4 col-sm-6 mix webdesign">
-                           <div class="single-work">
-                                <a href="assets/img/work/2.jpg" class="image-popup">
-                                    <img src="assets/img/work/2.jpg" alt="">
-                                    <div class="itemHover">
-                                        <div class="work-table">
-                                            <div class="table-cell">
-                                                <div class="hover-content">
-                                                    <h3>Project name</h3>
-                                                    <h6>Client: xxx James</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
                     </div><!--/.row-->
                 </div>
             </div><!--/.container-->
@@ -631,14 +572,14 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="single-stat">
                             <i class="fa fa-desktop"></i>
-                            <h2 class="counter theme-color">3</h2>
+                            <h2 class="counter theme-color">2</h2>
                             <h3>Scientific posters</h3>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="single-stat">
                             <i class="fa fa-trophy"></i>
-                            <h2 class="counter theme-color">2</h2>
+                            <h2 class="counter theme-color">3</h2>
                             <h3>Certifications</h3>
                         </div>
                     </div>
