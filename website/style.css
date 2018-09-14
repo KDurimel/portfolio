@@ -385,7 +385,7 @@ NOTE: This is main stylesheet of the template.
   background-color: #333333;
   margin-bottom: 10px;
   border-radius: 5px;
-    cursor: pointer;
+    cursor: default;
     border: 2px solid transparent;
     transition: 0.3s;
 }

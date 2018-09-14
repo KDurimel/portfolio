@@ -104,10 +104,10 @@ NOTE: This is the custom jQuery file for the template
     /*=============================
         CounterUp
     ==============================*/
-    $('.counter').counterUp({
-        delay: 4,
-         time: 800
-    });
+    /*$('.counter').counterUp({
+        delay: 50,
+         time: 550
+    });*/
         
     /*=========================================
                 jQuery mixItUp
