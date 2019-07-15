@@ -229,17 +229,4 @@ NOTE: This is active js file of the template.
 
     });
 
-
-    $(window).on('load', function(){
-        
-        /*================================
-             preloader
-        =================================*/
-        $('.spinner').fadeOut(); 
-        $('.preloader-wrapper').delay(350).fadeOut(500);
-        $body.delay(350).css({'overflow':'visible'});
-        
-    });
-
-
 }(jQuery));	
