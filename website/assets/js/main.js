@@ -139,18 +139,6 @@ NOTE: This is the custom jQuery file for the template
     
 
     });
-    
-   
-    $window.on('load', function(){
-          /*=============================
-                Preloder
-        ==============================*/
-         $('.spinner').fadeOut(); 
-        $('.preloader').delay(350).fadeOut(500);
-        $body.delay(350).css({'overflow':'visible'});
-            
-        });
-
 
 }(jQuery));	
 
