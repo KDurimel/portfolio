@@ -17,7 +17,7 @@
                 
                     .marker({
                     position: uluru,
-                    icon: "http://mhbthemes.com/marker/location-pin.png"
+                    icon: "https://mhbthemes.com/marker/location-pin.png"
                 })
     
                   .infowindow({
