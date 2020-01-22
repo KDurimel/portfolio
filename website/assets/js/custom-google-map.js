@@ -3,7 +3,7 @@
 
     jQuery(document).ready(function($){
         
-        var uluru = {lat: 48.8105974, lng: 2.4247216};
+        var uluru = {lat: 43.6896346, lng: 7.2164094};
                 $(".map")
                   .gmap3({
                     zoom: 14,
@@ -22,7 +22,7 @@
     
                   .infowindow({
                     position: uluru,
-                    content: "Maisons-Alfort",
+                    content: "Nice, avenue de Fabron",
                     pixelOffset: new google.maps.Size(0, -40)
                   })
                   .then(function (infowindow) {
